@@ -29,5 +29,5 @@ async def read_item(name):
 async def create_item(item: Item):
     return {"message": f"{item.name} is priced at £{item.price}"}
 
-if __name__ == "__main__":
-    app.run(debug=True,host='0.0.0.0',port=int(os.environ.get('PORT', 8888)))
+#if __name__ == "__main__":
+#    app.run(debug=True,host='0.0.0.0',port=int(os.environ.get('PORT', 8888)))
